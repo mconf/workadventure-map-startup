@@ -125,6 +125,11 @@
                          "name":"openTab",
                          "type":"string",
                          "value":"https:\/\/www.notion.so\/mconf\/756a532877c947eaad6910a322e451ca"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
                         }],
                  "type":"tilelayer",
                  "visible":true,
