@@ -130,6 +130,11 @@
                          "name":"openWebsiteTrigger",
                          "type":"string",
                          "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE or touch here to view recordings"
                         }],
                  "type":"tilelayer",
                  "visible":true,
