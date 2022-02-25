@@ -122,7 +122,7 @@
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"openWebsite",
+                         "name":"openTab",
                          "type":"string",
                          "value":"https:\/\/www.notion.so\/mconf\/756a532877c947eaad6910a322e451ca"
                         }],
