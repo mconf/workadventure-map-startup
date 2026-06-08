@@ -1045,14 +1045,14 @@
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"bbbMeeting",
+                         "name":"openWebsite",
                          "type":"string",
-                         "value":"6004f3b0-9178-469e-b904-179b5bb20a7a"
+                         "value":"https:\/\/wpb.h.elos.dev\/zone\/sala5?name=Sala+%235"
                         }, 
                         {
-                         "name":"meetingName",
+                         "name":"openWebsitePolicy",
                          "type":"string",
-                         "value":"Sala #5"
+                         "value":"microphone *; camera *; display-capture *; clipboard-read *; clipboard-write *; screen-wake-lock *; geolocation *;"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -2049,7 +2049,7 @@
  "nextobjectid":33,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"git",
+ "tiledversion":"1.12.1-8-g449813058",
  "tileheight":32,
  "tilesets":[
         {

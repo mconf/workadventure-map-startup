@@ -7,7 +7,8 @@
     "dev": "vite",
     "start": "vite",
     "build": "tsc && vite build",
-    "prod": "vite preview"
+    "prod": "vite preview",
+    "optimize": "cd dist/ && for i in $(ls -1 *.tmj); do jq -c . $i > tmp.tmj; mv tmp.tmj $i; done"
   },
   "devDependencies": {
     "@types/node": "^18.15.11",
