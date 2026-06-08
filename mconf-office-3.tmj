@@ -50082,14 +50082,14 @@
           "width": 72,
           "properties": [
             {
-              "name": "bbbMeeting",
+              "name": "openWebsite",
               "type": "string",
-              "value": "6004f3b0-9178-469e-b904-179b5bb20a7a"
+              "value": "https://wpb.h.elos.dev/zone/sala5?name=Sala+%235"
             },
             {
-              "name": "meetingName",
+              "name": "openWebsitePolicy",
               "type": "string",
-              "value": "Sala #5"
+              "value": "microphone *; camera *; display-capture *; clipboard-read *; clipboard-write *; screen-wake-lock *; geolocation *;"
             }
           ],
           "x": 0,
@@ -103374,12 +103374,12 @@
       "y": 0
     }
   ],
-  "tiledversion": "git",
+  "tiledversion": "1.12.1-8-g449813058",
   "tilesets": [
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "mconf-office-3-chunk-1-59fc0ec4.png",
+      "image": "mconf-office-3-chunk-1-2827ce64.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -103415,7 +103415,7 @@
     {
       "columns": 16,
       "firstgid": 257,
-      "image": "mconf-office-3-chunk-2-59fc0ec4.png",
+      "image": "mconf-office-3-chunk-2-2827ce64.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -103430,7 +103430,7 @@
     {
       "columns": 16,
       "firstgid": 513,
-      "image": "mconf-office-3-chunk-3-59fc0ec4.png",
+      "image": "mconf-office-3-chunk-3-2827ce64.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -103445,7 +103445,7 @@
     {
       "columns": 16,
       "firstgid": 769,
-      "image": "mconf-office-3-chunk-4-59fc0ec4.png",
+      "image": "mconf-office-3-chunk-4-2827ce64.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -103460,7 +103460,7 @@
     {
       "columns": 16,
       "firstgid": 1025,
-      "image": "mconf-office-3-chunk-5-59fc0ec4.png",
+      "image": "mconf-office-3-chunk-5-2827ce64.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
