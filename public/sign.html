@@ -3,7 +3,7 @@
   Sign embedded in the map by "website" objects.
     sign.html?text=Sala+do+Live           fixed text
     sign.html?zone=sala1&text=Sala+%231   live, pushed by the bridge: the portal room bound to the
-                                          zone (scrolling when it doesn't fit) on a red-marked
+                                          zone (scrolling when it doesn't fit) on a red-lit
                                           plate, blank when unbound, `text` while the bridge
                                           can't be reached
 -->
@@ -22,11 +22,17 @@
     display: flex; align-items: center; justify-content: center;
     border: 4px solid; border-image: url(sign-screen.png) 4 fill stretch; image-rendering: pixelated;
   }
-  /* busy: red over the cloth, its texture and dark border kept (multiply) */
   #plate::before { content: ""; position: absolute; inset: -4px; pointer-events: none; } /* over the cloth's rim too */
   #view { position: relative; }
   .busy { color: #8e1b14; }
-  .busy #plate::before { background: #f5b9b2; mix-blend-mode: multiply; }
+  /* busy: red glow rising from both bottom corners and fading over most of the cloth;
+     multiply keeps its texture and dark border */
+  .busy #plate::before {
+    --glow: rgba(255, 75, 60, .38), rgba(255, 75, 60, .17) 35%, rgba(255, 75, 60, .07) 70%, transparent;
+    background: radial-gradient(ellipse 80% 160% at 12% 81%, var(--glow)),
+                radial-gradient(ellipse 80% 160% at 88% 81%, var(--glow));
+    mix-blend-mode: multiply;
+  }
   #view { overflow: hidden; }
   /* marquee: two copies of the text slide left by one copy's width, forever */
   .scroll #view { flex: 1; }
