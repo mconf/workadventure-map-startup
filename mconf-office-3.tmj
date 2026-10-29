@@ -841,14 +841,19 @@
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"bbbMeeting",
+                         "name":"openWebsite",
                          "type":"string",
-                         "value":"63deb8b2-1d10-4d50-946e-8847f4309577"
+                         "value":"https:\/\/wpb.h.elos.dev\/zone\/sala1?name=Sala+%231"
                         }, 
                         {
-                         "name":"meetingName",
+                         "name":"openWebsitePolicy",
                          "type":"string",
-                         "value":"Sala #1"
+                         "value":"microphone *; camera *; display-capture *; clipboard-read *; clipboard-write *; screen-wake-lock *; geolocation *;"
+                        }, 
+                        {
+                         "name":"silent",
+                         "type":"bool",
+                         "value":true
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -909,14 +914,19 @@
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"bbbMeeting",
+                         "name":"openWebsite",
                          "type":"string",
-                         "value":"5ebfe001-d0ce-4bbc-bfde-1ca80b0f1899"
+                         "value":"https:\/\/wpb.h.elos.dev\/zone\/sala2?name=Sala+%232"
                         }, 
                         {
-                         "name":"meetingName",
+                         "name":"openWebsitePolicy",
                          "type":"string",
-                         "value":"Sala #2"
+                         "value":"microphone *; camera *; display-capture *; clipboard-read *; clipboard-write *; screen-wake-lock *; geolocation *;"
+                        }, 
+                        {
+                         "name":"silent",
+                         "type":"bool",
+                         "value":true
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -977,14 +987,19 @@
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"bbbMeeting",
+                         "name":"openWebsite",
                          "type":"string",
-                         "value":"b766bf68-f6f7-45a5-b44a-6fd044156ba6"
+                         "value":"https:\/\/wpb.h.elos.dev\/zone\/sala3?name=Sala+%233"
                         }, 
                         {
-                         "name":"meetingName",
+                         "name":"openWebsitePolicy",
                          "type":"string",
-                         "value":"Sala #3"
+                         "value":"microphone *; camera *; display-capture *; clipboard-read *; clipboard-write *; screen-wake-lock *; geolocation *;"
+                        }, 
+                        {
+                         "name":"silent",
+                         "type":"bool",
+                         "value":true
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -1113,14 +1128,19 @@
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"bbbMeeting",
+                         "name":"openWebsite",
                          "type":"string",
-                         "value":"6004f3b0-9178-469e-b904-179b5bb20a7a"
+                         "value":"https:\/\/wpb.h.elos.dev\/zone\/sala5?name=Sala+%235"
                         }, 
                         {
-                         "name":"meetingName",
+                         "name":"openWebsitePolicy",
                          "type":"string",
-                         "value":"Sala #5"
+                         "value":"microphone *; camera *; display-capture *; clipboard-read *; clipboard-write *; screen-wake-lock *; geolocation *;"
+                        }, 
+                        {
+                         "name":"silent",
+                         "type":"bool",
+                         "value":true
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -1183,7 +1203,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/wpb.h.elos.dev\/zone\/sala5?name=Sala+%235"
+                         "value":"https:\/\/wpb.h.elos.dev\/zone\/portal?name=Portal"
                         }, 
                         {
                          "name":"openWebsitePolicy",
@@ -1249,14 +1269,19 @@
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"bbbMeeting",
+                         "name":"openWebsite",
                          "type":"string",
-                         "value":"597b6b03-80f5-4aeb-9171-3d653fa9b0e6"
+                         "value":"https:\/\/wpb.h.elos.dev\/zone\/salaodeconferencias?name=Sal%C3%A3o+de+Confer%C3%AAncias"
                         }, 
                         {
-                         "name":"meetingName",
+                         "name":"openWebsitePolicy",
                          "type":"string",
-                         "value":"Sal\u00e3o de Confer\u00eancias"
+                         "value":"microphone *; camera *; display-capture *; clipboard-read *; clipboard-write *; screen-wake-lock *; geolocation *;"
+                        }, 
+                        {
+                         "name":"silent",
+                         "type":"bool",
+                         "value":true
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -1317,14 +1342,19 @@
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"bbbMeeting",
+                         "name":"openWebsite",
                          "type":"string",
-                         "value":"9bd4e819-f01b-430f-907f-9ce95e754f81"
+                         "value":"https:\/\/wpb.h.elos.dev\/zone\/saladereunioes?name=Sala+de+Reuni%C3%B5es"
                         }, 
                         {
-                         "name":"meetingName",
+                         "name":"openWebsitePolicy",
                          "type":"string",
-                         "value":"Sala de Reuni\u00f5es"
+                         "value":"microphone *; camera *; display-capture *; clipboard-read *; clipboard-write *; screen-wake-lock *; geolocation *;"
+                        }, 
+                        {
+                         "name":"silent",
+                         "type":"bool",
+                         "value":true
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -1385,14 +1415,19 @@
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"bbbMeeting",
+                         "name":"openWebsite",
                          "type":"string",
-                         "value":"cc9a2e73-37f0-45e5-81cb-c8441764e610"
+                         "value":"https:\/\/wpb.h.elos.dev\/zone\/laboral?name=Laboral"
                         }, 
                         {
-                         "name":"meetingName",
+                         "name":"openWebsitePolicy",
                          "type":"string",
-                         "value":"Laboral"
+                         "value":"microphone *; camera *; display-capture *; clipboard-read *; clipboard-write *; screen-wake-lock *; geolocation *;"
+                        }, 
+                        {
+                         "name":"silent",
+                         "type":"bool",
+                         "value":true
                         }],
                  "type":"tilelayer",
                  "visible":true,
