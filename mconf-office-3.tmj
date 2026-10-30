@@ -1716,21 +1716,21 @@
          "name":"Signs",
          "objects":[
                {
-                "height":22,
+                "height":26,
                 "id":34,
                 "name":"Sala 4 sign",
                 "properties":[
                        {
                         "name":"url",
                         "type":"string",
-                        "value":"sign.html?text=Sala+do+Live"
+                        "value":"sign-live.svg"
                        }],
                 "rotation":0,
                 "type":"website",
                 "visible":true,
-                "width":82,
-                "x":1884,
-                "y":499
+                "width":43,
+                "x":1904,
+                "y":497
                }, 
                {
                 "height":22,
