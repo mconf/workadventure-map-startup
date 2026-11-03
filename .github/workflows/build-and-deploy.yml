@@ -17,14 +17,14 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: '20.x'
+          node-version-file: .nvmrc
           registry-url: 'https://registry.npmjs.org'
 
       - name: "Install dependencies"
-        run: npm install
+        run: npm ci
 
       - name: "Build scripts"
-        run: npm run build
+        run: npm run build && npm run optimize
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
@@ -34,6 +34,15 @@ jobs:
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: dist/ # The folder the action should deploy.
           BASE_BRANCH: master
+
+      # The office loads the map from this map-storage, not from GitHub Pages.
+      - name: Upload to the map-storage
+        if: github.ref == 'refs/heads/master'
+        run: npx --yes --package=@workadventure/upload-maps@1.8.1 upload-wa-map
+        env:
+          MAP_STORAGE_URL: ${{ secrets.MAP_STORAGE_URL }}
+          UPLOAD_DIRECTORY: mconf/office
+          MAP_STORAGE_API_KEY: ${{ secrets.MAP_STORAGE_API_KEY }}
 
       - name: Bash2
         run: |
