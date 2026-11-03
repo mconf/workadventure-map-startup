@@ -40,7 +40,7 @@ jobs:
         if: github.ref == 'refs/heads/master'
         run: npx --yes --package=@workadventure/upload-maps@1.8.1 upload-wa-map
         env:
-          MAP_STORAGE_URL: https://edu.im.elos.vc/map-storage/
+          MAP_STORAGE_URL: ${{ secrets.MAP_STORAGE_URL }}
           UPLOAD_DIRECTORY: mconf/office
           MAP_STORAGE_API_KEY: ${{ secrets.MAP_STORAGE_API_KEY }}
 
