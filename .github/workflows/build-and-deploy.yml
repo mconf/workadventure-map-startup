@@ -35,6 +35,15 @@ jobs:
           FOLDER: dist/ # The folder the action should deploy.
           BASE_BRANCH: master
 
+      # The office loads the map from this map-storage, not from GitHub Pages.
+      - name: Upload to the map-storage
+        if: github.ref == 'refs/heads/master'
+        run: npx --yes --package=@workadventure/upload-maps@1.8.1 upload-wa-map
+        env:
+          MAP_STORAGE_URL: https://edu.im.elos.vc/map-storage/
+          UPLOAD_DIRECTORY: mconf/office
+          MAP_STORAGE_API_KEY: ${{ secrets.MAP_STORAGE_API_KEY }}
+
       - name: Bash2
         run: |
           ls -al
